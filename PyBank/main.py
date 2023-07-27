@@ -56,5 +56,7 @@ with open(file, 'w') as text:
     file.write("Average Change is ${average:,.2f}")
     file.write("Greatest Increase in Profits: {IncreaseDate} ${max(changedrevenue)}")
     file.write("Greatest Decrease in Profits: {DecreaseDate} ${min(changedrevenue)}")
-file.close()  
+    file.close()
+    
+
     
