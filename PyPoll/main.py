@@ -20,8 +20,12 @@ with open(election_data) as csvfile:
         else:
             candidaterow[candidate] = 1
 
-print(f"Total Votes {totalvotes}")
+for candidate in candidaterow:
 
+    percentage = (candidaterow[candidate]/totalvotes)*100
+
+print(f"Total Votes: {totalvotes}")
+print(f"candidate names and votes {candidaterow} ")
 
      
 
