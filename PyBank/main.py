@@ -43,8 +43,8 @@ with open(budget_data) as csvfile:
     print(f" Total number of months {totalnumbermonths}")
     print(f"Total ${nettotal}")
     print(f"Average Change is ${average:,.2f}")
-    print(f"Greatest Increase in Profits: {IncreaseDate} ${max(changedrevenue)}")
-    print(f"Greatest Decrease in Profits: {DecreaseDate} ${min(changedrevenue)}")
+    print(f"Greatest Increase in Profits: {IncreaseDate} (${max(changedrevenue)})")
+    print(f"Greatest Decrease in Profits: {DecreaseDate} (${min(changedrevenue)})")
 
 
 file = 'Pybank','analysis', 'AnalysisResults.txt'
